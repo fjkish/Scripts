@@ -26,7 +26,7 @@ def remap(baseDir,origMxd,newMxd,origDS,newDS):
     del mxd
 
 '''
-example
+example:
 remapds.py -BaseDir "D:\People\fxka\New folder\Fresno" -OrigMxdName "Fresno.mxd" -NewMxdName "FresnoNew.mxd" -OrigDSPath "C:\ProgramData\Esri\PGE\Electric\Distribution\Fresno" -NewDSPath "\\itgisappdev01\EcdArchive\ElectricalData_Latest"
 '''    
 parser = argparse.ArgumentParser(description='Remaps datasources')
