@@ -1,0 +1,19 @@
+2013-11-06-16-05-48: Start
+2013-11-06-16-05-48: Running: C:\Frank\Development\Python-Ver\MAIN.py
+2013-11-06-16-05-48: Found config file:.\Config\ConfigurationParameters.txt
+2013-11-06-16-05-48: AB2_Step3_Combine_TextPoint_and_Point_Process.py "c:\somewhere.gdb" "c:\goloca.loc" "c:\temp.gdb" "afcNmehere" "dccodsys" "c:\dcimputws" DC 4HNQXR .\Logs
+2013-11-06-16-05-55: AB2_Step3_Combine_TextPoint_and_Point_Process.py FAILED!
+2013-11-06-16-05-55: AB2_Step3_Combine_TextPoint_and_Point_Process.py result = 1
+2013-11-06-16-05-55: ++++MAIN Exception++++
+
+2013-11-06-16-05-55: Traceback (most recent call last):
+  File "C:\Frank\Development\Python-Ver\MAIN.py", line 31, in MAIN
+    CallScript("AB2_Step3_Combine_TextPoint_and_Point_Process.py",inputGrip_ws,geocodingLocator,templateFCInput_ws,switchFC,cordsys,input_ws,stateName)
+  File "C:\Frank\Development\Python-Ver\MAIN.py", line 17, in CallScript
+    sys.exit()
+SystemExit
+
+2013-11-06-16-05-55: ++++++++++++++++++++++
+
+2013-11-06-16-05-55: Total Time = 0.1 minutes
+2013-11-06-16-05-55: Done

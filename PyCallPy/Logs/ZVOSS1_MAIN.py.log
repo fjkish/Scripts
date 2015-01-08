@@ -1,0 +1,11 @@
+2013-11-06-16-00-59: Start
+2013-11-06-16-00-59: Running: C:\Frank\Development\Python-Ver\MAIN.py
+2013-11-06-16-00-59: Found config file:.\Config\ConfigurationParameters.txt
+2013-11-06-16-00-59: AB2_Step3_Combine_TextPoint_and_Point_Process.py "c:\somewhere.gdb" "c:\goloca.loc" "c:\temp.gdb" "afcNmehere" "dccodsys" "c:\dcimputws" DC ZVOSS1 .\Logs
+2013-11-06-16-01-07: AB2_Step3_Combine_TextPoint_and_Point_Process.py SUCCEEDED!
+2013-11-06-16-01-07: AB2_Step3_Combine_TextPoint_and_Point_Process.py result = 0
+2013-11-06-16-01-07: AB2_Step4_Points_Processing.py "c:\somewhere.gdb" "c:\goloca.loc" "c:\temp.gdb" "afcNmehere" "dccodsys" "c:\dcimputws" DC ZVOSS1 .\Logs
+2013-11-06-16-01-14: AB2_Step4_Points_Processing.py SUCCEEDED!
+2013-11-06-16-01-14: AB2_Step4_Points_Processing.py result = 0
+2013-11-06-16-01-14: Total Time = 0.2 minutes
+2013-11-06-16-01-14: Done

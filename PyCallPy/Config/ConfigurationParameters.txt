@@ -1,0 +1,13 @@
+[COMMON]
+inputGrip_ws      = "c:\somewhere.gdb"
+geocodingLocator  = "c:\goloca.loc"
+templateFCInput_ws= "c:\temp.gdb"
+switchFC          = "afcNmehere"
+
+[DC]
+cordsys           ="dccodsys"
+input_ws          ="c:\dcimputws"
+
+[PA]
+cordsys           ="pacoord"
+input_ws          ="pa input ws"
