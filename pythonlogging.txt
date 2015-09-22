@@ -1,0 +1,22 @@
+import logging
+
+prefix = datetime.datetime.now().strftime('%Y_%m_%d_%H-%M_')
+
+LogLocation = r"C:\Logs"
+LogFileSpec = os.path.join(LogLocation, prefix + "MyAppsLog.log")
+
+# log INFO, WARNING, ERROR or CRITICAL
+logging.basicConfig(level=logging.INFO,
+                    filename= LogFileSpec,
+                    format='%(asctime)s %(message)s',
+                    datefmt='%Y-%m-%d %H:%M:%S')
+
+logging.info("informational message text")
+logging.debug("debug message text")
+logging.warning("warning message text")
+logging.error("error message text")
+
+# sample log entries
+2015-09-02 08:05:33 makeLrsRoute started.
+2015-09-02 08:05:33 ...dissolve each route into a single feature
+2015-09-02 08:05:37 ...Append to load LrsArcs_Routes records into LrsRoute FC
