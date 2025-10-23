@@ -1,5 +1,7 @@
-source = r"C:\Users\fran2604\Downloads\pv\Debug"
-dest = r"C:\Users\fran2604\Downloads\pv\Bin43"
+
+
+source = r'F:\Kish\Keep\Mocking\masterbkup\windows'
+dest = r'F:\Kish\Keep\Mocking\na_online_test_mtr2\windows\data\rt_c_api\network_analyst\network_test_data\test_data'
 
 
 from os import walk
@@ -21,4 +23,4 @@ for (dirpath, dirnames, filenames) in walk(dest):
 diffs = [a for a in f+f1 if (a not in f) or (a not in f1)]
 
 for x in diffs:
-    print x
+    print (x)
